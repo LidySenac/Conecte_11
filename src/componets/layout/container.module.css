@@ -1,0 +1,27 @@
+.container {
+width: 1200px;
+display: flex;
+justify-content: space-between;
+margin: 0 auto;
+flex-wrap: wrap;
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+@media (max-width: 768px){
+    .container {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1024px){
+    .container {
+        max-width: 100%;
+    }
+}
+@media (max-width: 2560px){
+    .container {
+        max-width: 100%;
+    }
+}
